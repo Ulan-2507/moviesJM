@@ -1,0 +1,91 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
+}
+input,button,textarea{font-family:inherit;}
+
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+img{width: 100%;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+}
+.root-container {
+    margin: 0 auto;
+	padding: 0 20px;
+    max-width: 1010px;
+}
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header {
+	padding: 0 15px;
+}
+.toggle {
+	width: 146px;
+	margin: 12px auto 20px auto;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.65);
+	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.09);
+}
+.toggle button:first-child {
+	margin-right: 15px;
+}
+.toggle button {
+	width: 65px;
+	height: 54px;
+	background: #FFFFFF;
+}
+.button-active {
+	color: #1890FF;
+	border-bottom: 2px solid #1890FF;
+}
+.search {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 32px;
+	padding: 9px 12px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.25);
+	border: 1px solid #D9D9D9;
+	border-radius: 4px;
+}
