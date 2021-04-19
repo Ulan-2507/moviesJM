@@ -27,6 +27,7 @@
     margin-bottom: 7px;
 }
 .movie__header h5 {
+    width: 200px;
     font-size: 20px;
     line-height: 28px;
 }
